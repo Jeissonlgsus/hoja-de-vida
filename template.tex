@@ -1,0 +1,138 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Twenty Seconds Resume/CV
+% LaTeX Template
+% Version 1.0 (14/7/16)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Carmine Spagnuolo (cspagnuolo@unisa.it) with major modifications by 
+% Vel (vel@LaTeXTemplates.com)
+%
+% License:
+% The MIT License (see included LICENSE file)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[letterpaper]{twentysecondcv} % a4paper for A4
+\usepackage{graphicx}
+\usepackage{trimclip}
+\usepackage{tikz}
+
+
+%----------------------------------------------------------------------------------------
+%	 PERSONAL INFORMATION
+%----------------------------------------------------------------------------------------
+
+% If you don't need one or more of the below, just remove the content leaving the command, e.g. \cvnumberphone{}
+
+
+
+\cvname{Jeisson Jarvey\\Sánchez \\Castellanos} % Your name
+\cvjobtitle{Matemático \\ Interés: \\ Desarrollo Web } % Job title/career
+
+\cvlinkedin{https://www.linkedin.com/in/jeisson-sanchez-castellanos-989813279/}
+\cvnumberphone{+57 3227222204} % Phone number
+\cvsite{https://portfolio-jeissonlgsus.netlify.app} % Personal website
+\cvmail{jeissonlgsus@gmail.com} % Email address
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+\makeprofile % Print the sidebar
+
+%----------------------------------------------------------------------------------------
+%	 EDUCATION
+%----------------------------------------------------------------------------------------
+\begin{center}
+    \begin{tikzpicture}
+        \clip (0,0) circle (2);
+        \node {\href{https://portfolio-jeissonlgsus.netlify.app/}{\includegraphics[scale=0.2]{img/profile.jpg}}};
+    \end{tikzpicture}
+\end{center}
+\section{Perfil}
+Matemático de la Universidad Distrital cursando décimo semestre de la carrera, con
+experiencia en enseñanza de matemáticas básicas y avanzadas con especial interés y desenvolvimiento en el desarrollo web, manejando lenguajes como javascript, HTML, css, typescript con afinidad en librerias como react.js, storybook, redux toolkit y material UI.
+
+Persona carismática y responsable, con actitud para realizar las labores que se le asigne, una gran agilidad de aprendizaje en las diferentes tareas asignadas.
+
+\section{Educación}
+
+\begin{twenty} % Environment for a list with descriptions
+	\twentyitem
+    	{2023 - 2023}
+        {Programación Basica}
+        {\href{https://platzi.com/}{Platzi}}
+        {Remota}
+        {Progreso Actual: 100\% \\ \textit{Trabajo de conclusión: Maquetación de una página web}}
+	\twentyitem
+    	{2018 - 2023}
+        {Matemático}
+        {\href{https://www.udistrital.edu.co/inicio}{Universidad Distrital Francisco José de Caldas}}
+        {Bogotá, Colombia}
+        {}
+	\twentyitem
+    	{2001 - 2012}
+        {Bachillerato}
+        {\href{https://colegiosbogota.online/centro/colegio-reino-de-holanda/861}{I.E.D Reino de Holanda}}
+        {Bogotá, Colombia}
+        {}
+	%\twentyitem{<dates>}{<title>}{<organization>}{<location>}{<description>}
+\end{twenty}
+
+%----------------------------------------------------------------------------------------
+%	 EXPERIENCE
+%----------------------------------------------------------------------------------------
+
+\section{Experiencia}
+
+\begin{twenty} % Environment for a list with descriptions
+	\twentyitem
+    	{Septiembre 2019 \\ Noviembre 2022}
+        {Desarrollador web}
+        {\href{https://papeleriagolden.com/}{Papelería Golden}}
+        {}
+        {
+        {\begin{itemize}
+        \item Actualizacion y soporte tecnico en la pagina web.
+        \item Manejo de redes sociales y adaptación para temporadas escolares.
+    \end{itemize}}
+        }
+        
+    \twentyitem
+   	{Enero 2019 \\ Febrero 2019}
+        {Impulsador de temporada escolar}
+        {\href{https://www.legis.com.co}{Legis}}
+        {\href{https://www.activos.com.co/}{Activos}}
+        {
+        {\begin{itemize}
+        \item Impulso de mercancía escolar en punto de venta.
+        \item Responsable de inventario y surtido en punto de venta.
+    \end{itemize}}
+        }
+        
+     \twentyitem
+   		{Abril 2017 \\ Enero 2018}
+        {Auxiliar de Bodega y de venta}
+        {\href{https://www.panamericana.com.co/}{Panamericana}}
+        {}
+        {
+        \begin{itemize}
+        \item Surtido de mercancía en punto de venta. 
+        \item Manejo de caja. 
+        \item Surtido de mercancía en Bodega.
+        \item Distribución de pedidos para punto de venta.
+        
+    \end{itemize}
+    	}
+        
+	%\twentyitem{<dates>}{<title>}{<location>}{<description>}
+\end{twenty}
+
+\end{document} 
